@@ -5,6 +5,11 @@ const routes: Readonly<RouteRecordRaw[]> = [
     name: 'Home',
     path: '/',
     component: () => import('@/views/Home.vue')
+  },
+  {
+    name: '404',
+    path: '/:pathMatch(.*)*',
+    component: () => import('@/views/404.vue')
   }
 ]
 
