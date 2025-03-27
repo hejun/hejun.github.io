@@ -1,9 +1,18 @@
+# OS
+.DS_Store
+
 # idea
 /.idea/
 *.iml
+
+# VS Code
+*.code-workspace
+*.vscode
+
 # project
 /node_modules/
-/package-lock.json
 /dist/
 /build/
+/package-lock.json
+*.log
 .env.production
