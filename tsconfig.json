@@ -9,19 +9,15 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ],
-      "#/*": [
-        "./types/*"
       ]
     }
   },
   "include": [
-    "vite.config.*",
+    "env.d.ts",
+    "vite.config.ts",
     "src/**/*.ts",
     "src/**/*.vue",
-    "src/**/*.tsx",
-    "types/**/*.ts",
-    "types/**/*.d.ts"
+    "src/**/*.tsx"
   ],
   "exclude": [
     "node_modules"
